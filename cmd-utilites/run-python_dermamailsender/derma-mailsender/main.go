@@ -27,6 +27,7 @@ func main() {
 		"/usr/bin/zsh",
 		"-c", "source bin/activate && cd appfolder && flask run")
 
+	// write continuously to os.Stdout
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	cmd.Run()

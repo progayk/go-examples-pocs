@@ -1,0 +1,6 @@
+# security / TSL
+*.pem
+
+# other
+node_modules/
+.tmp
